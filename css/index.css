@@ -1,0 +1,105 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: 'Montserrat', sans-serif;
+        background: #D8F3DC;
+        overflow: hidden;
+    }
+    button{
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    header{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        background-color: #2D6A4F;
+    }
+    .nav-links {
+        justify-content: space-around;
+        list-style: none;
+        display: flex;
+        
+
+        
+    }
+
+    .logo{
+        padding-left: 0.5%;
+        font-size: 25px;
+        color:#081C15;
+        
+    }
+
+    nav{
+        flex: 1;
+    }
+
+    .nav-link{
+        text-decoration: none;
+        color: #D8F3DC;
+        font-weight: bold;
+        }
+
+
+    .mainInnhold{
+        width: 100%;
+        height: 80vh;
+    }
+
+    
+    .overskrift{
+        width: 30%;
+        height: 30vh;
+        margin: auto;
+        margin-top: 1%;
+        text-align: center;
+    }
+    .overskrift img{
+        height: 100%;
+        margin-top: -3%;
+    }
+    .overskrift p {
+        font-size: 20px;
+       color: #52B788;
+       font-weight: bold;
+    }
+
+
+.footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #2D6A4F;
+    text-align: center;
+}
+
+
+footer img{
+    height: 45%;
+    margin-top: 1%;  
+    padding-left: 30px;
+}
+.tekst{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    color: #081C15;
+    font-size: 30px;
+    margin-top: 3%;
+   
+}
+#strek{
+    margin: auto;
+    border: solid 5px#081C15;
+    width: 35%;
+    background-color: #081C15;
+    margin-top: 3%;
+}
